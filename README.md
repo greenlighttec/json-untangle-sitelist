@@ -3,7 +3,7 @@ Used for converting website lists from a comma separated  list into a JSON file 
 
 ## Steps for use
 1. Create a list of CSV file with the header **Sites**, enter 1 site per line
-2. Import the CSV into powershell using "Import-CSV -path <<path to CSV>>"
+2. Import the CSV into powershell using "Import-CSV -path _path to CSV_"
   3. Use the for each loop to create the JSON file and import it into the Untangle firewall.
   
   
