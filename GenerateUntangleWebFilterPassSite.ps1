@@ -1,6 +1,7 @@
 # Untangle Web Filter Pass Sites JSON Builder
 # CSV File should be in the format of two columns "Hostname" and "Description"
 # Very Rough Draft
+# Run the command "Get-UntangleWebFilterJsonImport" passing in the parameters of an existing CSV and a path to save the output json file
 
 $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding $False
 
